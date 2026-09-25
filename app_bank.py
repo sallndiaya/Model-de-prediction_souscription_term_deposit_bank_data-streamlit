@@ -2,7 +2,7 @@
 Application Streamlit — Prédiction de la souscription d'un dépôt à terme d'une client(term deposit)cc
 Conversion directe de l'application Gradio d'origine.
 
-Lancement en local :  streamlit run app.py
+Lancement en local :  streamlit run app_bank.py
 """
 
 import numpy as np 
@@ -21,7 +21,7 @@ st.set_page_config(
 
 DESCRIPTION = (
     "Ce jeu de données contient des informations issues de campagnes de marketing téléphonique réalisées par une banque portugaise."
-    "L'objectif est de prédire si un client souscrira à un dépôt à terme (y)."
+    "L'objectif est de prédire si un client souscrira à un dépôt à terme (y)."Model xgboot
 
 )
 
