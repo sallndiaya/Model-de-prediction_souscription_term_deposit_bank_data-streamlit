@@ -14,8 +14,8 @@ from xgboost import XGBClassifier
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Prédiction de la souscription d'un dépôt à terme",
-    page_icon="📱",
+    page_title="Prédiction de la souscription d'un dépôt à terme Model xgboot",
+    page_icon="🏦",
     layout="centered",
 )
 
@@ -90,7 +90,7 @@ def Pred_func_csv(file):
 
 # Interface
 
-st.title("📱 Prédiction de la souscription d'un dépôt à terme")
+st.title("🏦 Prédiction de la souscription d'un dépôt à terme")
 
 onglet1, onglet2 = st.tabs(["Prédiction simple", "Prédiction multiple"])
 
